@@ -37,12 +37,12 @@ Who cares? Use what is most readable for you and your team.
 One of the most important things to understand and realize when you are writing react-native is there is no DOM. React-native is not a web browser application. Fortunately thanks to the react-native team we still get to write JavaScript and we only have to learn a few new jsx elements.
 
 **React-Native Cheat Sheet**
-+ View> - Essentially <div>
-+ ScrollView> - Yeah no scroll overflow handler without this
-+ TouchableHighlight onPress={}> - <button>
++ View - Essentially div
++ ScrollView - Yeah no scroll overflow handler without this
++ TouchableHighlight onPress={} - button
 + Text> - **All** text must be wrapped with this Tag
-+ TextInput onChange={}> - <input>
-+ Image source={{uri: ''}}> - <img>
++ TextInput onChange={}> - input
++ Image source={{uri: ''}}> - img
 
 **React-Native Utilities**
 + AsyncStorage - localstorage promised based
